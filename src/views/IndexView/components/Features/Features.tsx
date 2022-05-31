@@ -75,6 +75,7 @@ const Features = (): JSX.Element => {
 							variant={'h6'}
 							component={'p'}
 							color={'text.secondary'}
+							sx={{ fontWeight: 400 }}
 						>
 							With our hydroponics home farm, we grow sweet strawberries,
 							perfect for eating anytime.

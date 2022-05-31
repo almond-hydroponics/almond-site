@@ -76,6 +76,7 @@ const Places = (): JSX.Element => {
 					align={'center'}
 					color={'text.secondary'}
 					data-aos={'fade-up'}
+					sx={{ fontWeight: 400 }}
 				>
 					For entrepreneurs, startups and freelancers.
 					<br />

@@ -84,6 +84,7 @@ const LatestNews = (): JSX.Element => {
 						align={'center'}
 						color={'text.secondary'}
 						data-aos={'fade-up'}
+						sx={{ fontWeight: 400 }}
 					>
 						Experience your music like never before. Buy music instruments &
 						accessories online.

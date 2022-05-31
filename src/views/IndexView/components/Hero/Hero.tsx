@@ -91,7 +91,7 @@ const Hero = (): JSX.Element => {
 	const isAuthed = authService.isAuthenticated();
 
 	const LeftSide = () => (
-		<Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
+		<Box>
 			<Box marginBottom={2}>
 				<Typography variant="h3" color="text.primary" sx={{ fontWeight: 700 }}>
 					Grow your food{' '}
@@ -146,8 +146,8 @@ const Hero = (): JSX.Element => {
 				}}
 			>
 				<Box
-					component={LazyLoadImage}
-					effect="blur"
+					component={'img'}
+					// effect="blur"
 					src="/img/hydroponics.webp"
 					srcSet="/img/hydroponics.webp 2x"
 					alt="home-image"
